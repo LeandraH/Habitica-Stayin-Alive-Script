@@ -26,6 +26,7 @@ const healthPotionGoldCost = 25;   // Gold Points cost to buy a Health Potion
 const headers = {
   'x-api-user': habiticaUserId,
   'x-api-key': habiticaAPIToken,
+  'x-client' : `${habiticaUserId}-StayingAliveScript`,
 };
 
 function StayingAlive() {
